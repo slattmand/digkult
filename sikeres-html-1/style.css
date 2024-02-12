@@ -1,0 +1,67 @@
+body{
+    margin: auto;
+}
+
+.tart{
+    margin-top: 200px;
+}
+
+.jo{
+    list-style-image: url(icon_good.png);
+    padding-inline-start: 1ch;
+    margin-left:30px;
+}
+
+.rossz{
+    list-style-image: url(icon_bad.png);
+    padding-inline-start: 1ch;
+    margin-left:30px;
+}
+
+.kep{
+    max-width: 200px;
+    margin: auto;
+}
+
+.jj{
+    background-color: rgba(0, 255, 0, 0.2);
+    color: green;
+    box-shadow: 5px 5px 5px darkgreen;
+    border-left: 2px solid rgba(0, 255, 0, 0.5);
+    border-top: 2px solid rgba(0, 255, 0, 0.5);
+}
+
+.ro{
+    background-color: rgba(255, 0, 0, 0.2);
+    color: maroon;
+    box-shadow: 5px 5px 5px maroon;
+    border-left: 2px solid rgba(255, 0, 0, 0.5);
+    border-top: 2px solid rgba(255, 0, 0, 0.5);
+}
+
+ul{
+    border-radius: 20px;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.keresztbe{
+    width: fit-content;
+    background-color: yellow;
+    padding: 10px;
+    position: fixed;
+    left: 37%;
+    top: 65%;
+    transform: rotateZ(20deg);
+}
+.bent{
+    background-color: rgb(5, 1, 74);
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-size: 30px;
+    outline: black solid 2px;
+    outline-offset: 2px;
+}
